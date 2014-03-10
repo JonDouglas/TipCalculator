@@ -13,10 +13,10 @@ namespace TipCalculator.Droid
     [Activity(Label = "TipCalculator.Droid", MainLauncher = true, Icon = "@drawable/icon")]
     public class TipActivity : Activity
     {
-        TextView subTotalTextView;
         public TextView generosityTextView;
-        TextView tipToLeaveTextView;
         public TextView tipTextView;
+        TextView subTotalTextView;
+        TextView tipToLeaveTextView;
         SeekBar generositySeekBar;
         EditText subTotalEditText;
 
